@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <title>Material Components for the web</title>
+    <link rel="stylesheet"
+          href="node_modules/material-components-web/dist/material-components-web.css">
+    <script type="text/javascript" src="MochiKit/MochiKit.js"></script>
+    <script type="text/javascript" src="key_events.js"></script>
+
+
+
+  </head>
+  <body>
+    <h2 class="mdc-typography--display2">Hello, Material Components!</h2>
+    <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="demo-input">
+      <label for="demo-input" class="mdc-textfield__label">Tell us how you feel!</label>
+    </div>
+
+
+
+ <h1>
+        Key Events with MochiKit
+    </h1>
+    <p>
+        This is an example of one might implement a key listener with
+        MochiKit&#8217;s Signal.
+    </p>
+    <p>
+        For a detailed description of what happens under the hood, check out
+        <a href="key_events.js" class="view-source">key_events.js</a>.
+    </p>
+
+    <p>
+        View Source: [
+            <a href="index.html" class="view-source">index.html</a> | 
+            <a href="key_events.js" class="view-source">key_events.js</a> |
+            <a href="key_events.css" class="view-source">key_events.css</a>
+        ]
+    </p>
+
+    <p>Check this box to test <a href="http://mochikit.com/doc/html/MochiKit/Signal.html#fn-preventdefault">
+    preventDefault()</a> in your browser:
+    <input type="checkbox" id="stopBox" /></p>
+    
+    <p id="specialMessage">This text is replaced with a message when you press Escape or F1.</p>
+    
+    <table>
+        <tr>
+            <th>Event</th>
+            <th>Key Code</th>
+            <th>Key String</th>
+        </tr>
+        <tr>
+            <td>onkeydown</td>
+            <td id="onkeydown_code">-</td>
+            <td id="onkeydown_string">-</td>
+        </tr>
+        <tr>
+            <td>onkeyup</td>
+            <td id="onkeyup_code">-</td>
+            <td id="onkeyup_string">-</td>
+        </tr>
+        <tr>
+            <td>onkeypress</td>
+            <td id="onkeypress_code">-</td>
+            <td id="onkeypress_string">-</td>
+        </tr>
+    </table>
+    
+    <h3>Modifiers</h3>
+    <table>
+        <tr>
+            <th>Shift</th>
+            <th>Ctrl</th>
+            <th>Alt (Option)</th>
+            <th>Meta (Command)</th>
+        </tr>
+        <tr>
+            <td id="shift">-</td>
+            <td id="ctrl">-</td>
+            <td id="alt">-</td>
+            <td id="meta">-</td>
+        </tr>
+    </table>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>mdc.autoInit()</script>
+  </body>
+</html>

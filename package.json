@@ -1,0 +1,23 @@
+{
+  "name": "material-mochikit",
+  "version": "1.0.0",
+  "description": "Mochikit with material style",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrkansagara/material-mochikit.git"
+  },
+  "keywords": [
+    "Mochikit",
+    "Material"
+  ],
+  "author": "Vallabh Kansagara <vrkansagara@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/vrkansagara/material-mochikit/issues"
+  },
+  "homepage": "https://github.com/vrkansagara/material-mochikit#readme"
+}
